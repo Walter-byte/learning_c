@@ -3,7 +3,7 @@
 
 int main () {
 
-char hola [] = "I am learning C language!";
+char hola[] = "I am learning C language!";
 printf("%s\n", hola);
 
 hola[0] = 'A';
@@ -19,6 +19,10 @@ char greetings[] = { 'H', 'e', 'l', 'l', 'o', '\0'};
 printf("%s\n", greetings);
 // \0 is null forthe end of the string.
 
+// USE these for special charecters \' \" \\ \n \t \0
+
+char txt[] = "We are the \"HUMANKIND\" on the earth.";
+printf("%s\n", txt);
 
     return 0;
 }
